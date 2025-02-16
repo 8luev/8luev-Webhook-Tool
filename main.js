@@ -1,4 +1,4 @@
-//-- Some shitty app made for deleting/sending messages to discord webhooks.
+//-- An application made in electron dedicated to delete discord webhooks made by 8luev
 
 const { BrowserWindow, app } = require('electron');
 const path = require('path');
