@@ -11,6 +11,9 @@ function AppWindow() {
         resizable: false,
         fullscreenable: false,
         autoHideMenuBar: true,
+        webPreferences: {
+            devTools: false,
+        },
     });
     win.loadFile('./src/index.html');
 };
